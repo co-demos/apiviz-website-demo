@@ -1,26 +1,32 @@
+<style>
+
+</style>
+
 <main id="home">
 
-  <br>
-
   <section id="top" class="hero primary-bg">
-    <div class="background columns is-centered primary-bg-img" style="
-        background-image: url(https://raw.githubusercontent.com/co-demos/cis-data/master/illustrations/HP_section_1.png);
-        background-size: cover;
-        background-color: transparent;
 
+    <div
+      class="background columns is-centered " 
+      style="
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5em 0;
+        padding: 5em 0 2em 0 ;
         "
       >
 
       <div class="column is-8">
-        <h1 class="title is-1">Discover and localize social innovation projects in France</h1>
+        
+        <h1 class="title is-1 has-text-centered">
+          Valorize your data
+          <br>
+          with the Apiviz / Solidata system
+        </h1>
 
-        <br>
-
-        <form action="/recherche" method="GET" class="columns">
+        
+        <!-- DATASET MEDIATION SONUM -->
+        <!-- <form action="/mediation" method="GET" class="columns">
 
           <div class="column is-9">
 
@@ -30,7 +36,7 @@
                 type="search"
                 name="text"
                 class="input is-large"
-                placeholder="Quel thème vous intéresse">
+                placeholder="Rechercher un lieu de médiation numérique">
               
               <span class="icon is-left">
                 <i class="fas fa-search"></i>
@@ -39,27 +45,170 @@
 
           </div>
 
-          <div class="column is-3 is-hidden-touch">
-            <button class="button is-fullwidth is-primary is-primary-b is-outlined is-large" type="submit">
-              Search
+          <div class="column is-3 is-hidden-mobile">
+
+            <button class="button is-fullwidth is-primary is-primary-b is-outlined is-large" 
+              style="padding-left: 0;"
+              type="submit"
+              >
+              <span class="is-hidden-touch" style="padding-left:0.7em;">
+                Chercher
+              </span>
+              <span class="icon is-hidden-desktop">
+                <i class="fas fa-search"></i>
+              </span>
             </button>
+
           </div>
 
-        </form>
+        </form> -->
 
-      <h3>
+        <!-- DATASET TIERS LIEUX CGET-->
+        <!-- <form action="/tiers-lieux" method="GET" class="columns">
+
+          <div class="column is-9">
+
+            <div class="control has-icons-left is-large">
+
+              <input
+                type="search"
+                name="text"
+                class="input is-large"
+                placeholder="Rechercher un tiers-lieu">
+              
+              <span class="icon is-left">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+
+          </div>
+
+          <div class="column is-3 is-hidden-mobile">
+
+            <button class="button is-fullwidth is-primary is-primary-b is-outlined is-large" 
+              style="padding-left: 0;"
+              type="submit"
+              >
+              <span class="is-hidden-touch" style="padding-left:0.7em;">
+                Chercher
+              </span>
+              <span class="icon is-hidden-desktop">
+                <i class="fas fa-search"></i>
+              </span>
+            </button>
+
+          </div>
+
+        </form> -->
+
+        <!-- <h3>
           <span class="counter is-secondary">?</span>
           <span class="text is-secondary">
-            projects already registred
+            projets déjà référencés
           </span>
-        </h3>
+        </h3> -->
+
       </div>
+
+    </div>
+  </section>
+
+  <br>
+
+  <section class="container">
+
+    <div 
+      class="columns is-centered"
+      style="padding:0 0 3em 0 ;"
+      >
+
+      <div class="column is-8 content">
+
+        <h2 class="">
+          Valorizing your data is a digital challenge by itself
+        </h2>
+
+        <p>
+          Your core business is to produce data, that is, industry-specific data sets, and you want a website where you can show your data in their best light.
+        </p>
+        <p>
+          However, we often realize that there is a gap between having the data available and the project of making its data intelligible to the general public. 
+          In fact, the technologies used to build or enhance / visualize data are different, as is the approach, the expectations of the public or the design. 
+        </p>
+
+
+        <h2>
+          Why Apiviz ?
+        </h2>
+
+        <p>
+          The Apiviz / Solidata system was developed as part of a public project of general interest,
+          <b><a class="link-underlined" href="https://entrepreneur-interet-general.etalab.gouv.fr/" target="_blank">
+            Entrepreneur d'Intérêt Général
+          </a></b>
+          , with the aim that the general public can access and explore datasets opened by public or parapublic structures. 
+        </p>
+
+        <p>
+          The system has also been developed to make it possible for any type of organization to benefit from such a data infrastructure in a short time and at a low cost: be it man-time or cost in material.
+        </p>
+
+
+        <h2>
+          The advantages of the Apiviz system
+        </h2>
+
+        <p>
+          The Apiviz / Solidata system has several advantages when you want to allow your audience to explore your data:
+        </p>
+
+        <ul>
+          <li>a customizable website (UI, contents, data)</li>
+          <li>online data management</li>
+          <li>expose data to third-party services (data API-fication)</li>
+          <li>data protection and publishing rights management</li>
+          <li>a modular system (independent microservices)</li>
+          <li>open source codes (documentation here)</li>
+          <li>mutualised maintainance and R&D (SAAS / PAAS)</li>
+        </ul>
+
+
+
+        <h2>
+          Presentation 
+        </h2>
+  
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="hero">
+
+    <div 
+      class="columns is-centered"
+      style="padding:0 0 2em 0 ;"
+      >
+
+      <div class="column is-8 content">
+
+        <!-- PRESENTATION GSLIDES -->
+        <div
+          class=""
+          style="height:569px;"
+          >
+
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRPMKFVpBSl0DYkPsapGBgDGAh2UJEAl0nNHRLl8oRk3PkYHgWlxhPi_RtYhXP_Aej1DN3W8xgWjOop/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+        </div>
+      </div>
+
     </div>
   </section>
 
 
   <br>
   <br>
-  
-</main>
 
+</main>

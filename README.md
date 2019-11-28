@@ -1,10 +1,13 @@
+Déploiement du site : [![Netlify Status](https://api.netlify.com/api/v1/badges/f5ff305b-52c1-4fb1-be79-17a7494705ac/deploy-status)](https://app.netlify.com/sites/apiviz-preprod-apcis-url-migration/deploys)
+
+
 ## INFORMATIONS / METHODOLOGIE
-Ce repo contiendra l'ensemble des éléments "custom" propres au projet de cartographie SoNum, indépendamment du code source d'Apiviz. Ceci permettra une meilleure flexibilité et coordination : 
+Ce repo contiendra l'ensemble des éléments "custom" propres au site de démo Apiviz, indépendamment du code source d'Apiviz. Ceci permettra une meilleure flexibilité et coordination : 
 - le chantier purement technique s'effectuera sur le repo ApiViz, dans le but d'en améliorer la généricité
 - les contenus et documents de cadrage (maquette, charte graphique...) produits par chacun.e seront mis à jour sur ce repo
-- les issues propres au projet de cartographie SoNum seront associées à [ce repo](https://github.com/co-demos/carto-sonum/issues)
+- les issues propres au contenus du site de démo Apiviz seront associées à [ce repo](https://github.com/co-demos/apiviz-website-demo/issues)
 - les issues propres au développement d'ApiViz seront associées au [repo ApiViz](https://github.com/co-demos/ApiViz/issues)
-- la vision générale de l'avancée du projet (gestion des sprints) sera visible et modifiable sur [le(s) projet(s) au niveau plus général de l'organisation co-demos](https://github.com/orgs/co-demos/projects), notamment le [sprint#1](https://github.com/orgs/co-demos/projects/1) concernant la première phase
+- la vision générale de l'avancée du projet (gestion des sprints) sera visible et modifiable sur [le(s) projet(s) du repo](https://github.com/co-demos/apiviz-website-demo/projects)
 
 ## ORGANISATION DES DOSSIERS
 Les dossiers sont organisés de la manière suivante : 
