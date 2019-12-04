@@ -1,0 +1,358 @@
+<style>
+
+  .card-box {
+    transition: box-shadow .3s;    
+  }
+  .card-box:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.4); 
+  }
+
+</style>
+
+<main id="home">
+
+  <section id="top" class="hero primary-bg">
+
+    <div
+      class="background columns is-centered " 
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em 0 1em 0 ;
+        "
+      >
+
+      <div class="column is-8">
+        
+        <h1 class="title is-1 has-text-centered">
+          Valorisez vos données
+          <br>
+          avec le système libre Apiviz / Solidata
+        </h1>
+
+        
+        <!-- DATASET MEDIATION SONUM -->
+        <!-- <form action="/mediation" method="GET" class="columns">
+
+          <div class="column is-9">
+
+            <div class="control has-icons-left is-large">
+
+              <input
+                type="search"
+                name="text"
+                class="input is-large"
+                placeholder="Rechercher un lieu de médiation numérique">
+              
+              <span class="icon is-left">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+
+          </div>
+
+          <div class="column is-3 is-hidden-mobile">
+
+            <button class="button is-fullwidth is-primary is-primary-b is-outlined is-large" 
+              style="padding-left: 0;"
+              type="submit"
+              >
+              <span class="is-hidden-touch" style="padding-left:0.7em;">
+                Chercher
+              </span>
+              <span class="icon is-hidden-desktop">
+                <i class="fas fa-search"></i>
+              </span>
+            </button>
+
+          </div>
+
+        </form> -->
+
+        <!-- DATASET TIERS LIEUX CGET-->
+        <!-- <form action="/tiers-lieux" method="GET" class="columns">
+
+          <div class="column is-9">
+
+            <div class="control has-icons-left is-large">
+
+              <input
+                type="search"
+                name="text"
+                class="input is-large"
+                placeholder="Rechercher un tiers-lieu">
+              
+              <span class="icon is-left">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+
+          </div>
+
+          <div class="column is-3 is-hidden-mobile">
+
+            <button class="button is-fullwidth is-primary is-primary-b is-outlined is-large" 
+              style="padding-left: 0;"
+              type="submit"
+              >
+              <span class="is-hidden-touch" style="padding-left:0.7em;">
+                Chercher
+              </span>
+              <span class="icon is-hidden-desktop">
+                <i class="fas fa-search"></i>
+              </span>
+            </button>
+
+          </div>
+
+        </form> -->
+
+        <!-- <h3>
+          <span class="counter is-secondary">?</span>
+          <span class="text is-secondary">
+            projets déjà référencés
+          </span>
+        </h3> -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <br>
+
+  <section class="container">
+
+    <div 
+      class="columns is-centered"
+      style="padding:0 0 1em 0 ;"
+      >
+
+      <div class="column is-8 content">
+
+        <h2 class="">
+          Valoriser ses données, un projet numérique en soi
+        </h2>
+
+        <p>
+          Votre coeur de métier est de <b>produire des données</b>, c'est-à-dire des jeux de données spécifiques à un secteur d'activité, 
+          mais <b>vous avez envie d'un site</b> où il soit possible d'explorer vos données, de montrer quels services elles pourraient rendre au public, 
+          bref de montrer vos données sous leur plus beau jour.
+        </p>
+        <p>
+          Pourtant on s'aperçoit souvent qu'il existe un fossé entre le fait d'avoir les données à disposition et le projet de rendre ces données intelligibles et utiles à un grand public. 
+          En effet les technologies employées et les compétences nécessaires 
+          - d'une part pour construire des jeux de données, et d'autre part valoriser/visualiser ces mêmes données - 
+          sont très différentes, tout comme l'approche, les attentes du public ou le design.  
+        </p>
+
+
+        <h2>
+          Pourquoi Apiviz ?
+        </h2>
+
+        <p>
+          Le système Apiviz / Solidata a été développé dans le cadre d'un projet public d'intérêt général, 
+          <b><a class="link-underlined" href="https://entrepreneur-interet-general.etalab.gouv.fr/" target="_blank">
+            Entrepreneur d'Intérêt Général
+          </a></b>
+          , dans le but que le grand public (du moins votre public cible) puisse <b>accéder et explorer des jeux de données</b> ouverts par des structures publiques ou para-publiques. 
+        </p>
+
+        <p>
+          Ce système a également été développé afin qu'il soit possible à tout type d'organisation de bénéficier d'une telle infrastructure de données dans des délais réduits et pour un coût modique : 
+          qu'il s'agisse de temps-homme ou de coût en matériel. 
+        </p>
+
+      </div>
+
+    </div>
+
+    <div 
+      class="columns is-multiline is-tablet is-centered"
+      style="padding:0 0 3em 0 ;"
+      >
+
+      <div class="column is-12 content"
+        style="margin-bottom: 0em;"
+        >
+        <h4 class="has-text-centered">
+          Quelques exemples de sites de démonstration (non officiels) 
+          <br>fonctionnant avec Apiviz/Solidata
+        </h4>
+      </div>
+
+      <div class="column is-4">
+
+        <div class="card-box card">
+          <a href="https://orgues-apiviz.netlify.com/" target="_blank">
+            <div class="card-image">
+              <figure class="image is-5by3">
+                <img src="https://raw.githubusercontent.com/co-demos/apiviz-website-demo/master/illustrations/screenshots/apiviz-orgues-01.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Inventaire des orgues</p>
+                  <!-- <p class="subtitle is-6">
+                      <span class="icon is-small">
+                        <i class="fas fa-external-link-alt"></i>
+                      </span>
+                      website
+                    </p> -->
+                  </div>
+                </div>
+                <!-- <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. 
+                </div> -->
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="column is-4">
+
+        <div class="card-box card">
+          <a href="https://tiers-lieux-dataviz.netlify.com/" target="_blank">
+          <div class="card-image">
+            <figure class="image is-5by3">
+              <img src="https://raw.githubusercontent.com/co-demos/apiviz-website-demo/master/illustrations/screenshots/apiviz-tierslieux-01.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-5">Tiers lieux et co-working</p>
+                <!-- <p class="subtitle is-6">
+                    <span class="icon is-small">
+                      <i class="fas fa-external-link-alt"></i>
+                    </span>
+                    website
+                </p> -->
+                </div> 
+              </div>
+              <!-- <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+              </div> -->
+            </div>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="column is-4">
+
+        <div class="card-box card">
+          <a href="https://etalab-codes.netlify.com/a-propos" target="_blank">
+          <div class="card-image">
+            <figure class="image is-5by3">
+              <img src="https://raw.githubusercontent.com/co-demos/apiviz-website-demo/master/illustrations/screenshots/apiviz-codes-01.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-5">Codes Etalab</p>
+                <!-- <p class="subtitle is-6">
+                  <span class="icon is-small">
+                    <i class="fas fa-external-link-alt"></i>
+                  </span>
+                  website
+                </p> -->
+              </div> 
+            </div>
+            <!-- <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div> -->
+          </div>
+        </a>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+    <div 
+      class="columns is-centered"
+      style="padding:0 0 3em 0 ;"
+      >
+
+
+        <div class="column is-8 content">
+          <h2>
+          Les avantages du système Apiviz
+        </h2>
+
+        <p>
+          Le système Apiviz / Solidata possède divers avantages lorsque vous désirerez permettre à votre public d'explorer vos données : 
+        </p>
+
+        <ul>
+          <li>un site personnalisable (UI, contenus, données) en ligne</li>
+          <li>une gestion des données en ligne</li>
+          <li>exposer des données à d'autres services (API-fication de vos données)</li>
+          <li>protection des données et gestion des droits d'édition</li>
+          <li>un système modulaire (microservices indépendants)</li>
+          <li>codes open source (documentation 
+            <a class="link-underlined" href="https://github.com/co-demos" target="_blank">
+              ici</a>)
+          </li>
+          <li>une maintenance et R&D mutualisée (SAAS / PAAS)</li>
+        </ul>
+
+  
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="hero">
+
+    <div 
+      class="columns is-multine is-mobile is-centered"
+      style="padding:0 0 2em 0 ;"
+      >
+
+      <!-- <div class="column is-12 content"
+        style="margin-bottom: 0em;"
+        >
+        <h2 class="has-text-centered">
+          Présentation
+        </h2>
+      </div> -->
+
+      <div class="column is-8-desktop is-full-tablet content">
+
+        <!-- PRESENTATION GSLIDES -->
+        <div
+          class="has-text-centered"
+          style="height:569px;"
+          >
+
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRPMKFVpBSl0DYkPsapGBgDGAh2UJEAl0nNHRLl8oRk3PkYHgWlxhPi_RtYhXP_Aej1DN3W8xgWjOop/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <br>
+  <br>
+
+</main>
